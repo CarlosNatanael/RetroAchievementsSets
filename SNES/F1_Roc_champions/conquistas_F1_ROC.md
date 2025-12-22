@@ -126,7 +126,10 @@ Temporada Perfeita: (50)`(50)`
 A Máquina Perfeita: (25)
 - Compre todas as melhorias disponíveis para um carro de F1
 
-### Unwelcome Concept achievements
+### VOID
 
-[Void]O Gambito P3:
-- Ganhe o Campeonato Mundial de F1 após ficar em 3º lugar na classificação por pontos, pouco antes do Grande Prêmio da Bélgica.
+[VOID] 777 Grande Sorte: (15) `(15)`
+- Ganhe o prêmio máximo de 4000 na máquina caça-níqueis em Mônaco
+
+[VOID] Lenda do Asfalto: (50) `(50)`
+- Conquistar dois campeonatos mundiais de Fórmula 1 consecutivos.

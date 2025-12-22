@@ -19,6 +19,11 @@ This tracks the players controller input.
 0x20 = Select
 0x10 = Pause
 
+0x000048 - [8-bit] [Bitmask] Player Input (Controls)
+This tracks the players controller input.
+
+0x80 = Nitro
+
 0x00006f - Shop Menu Cursor (X-Axis) [8-bit] (Partial)
 This tracks the horizontal cursor, but only for the first 4 items (values 0x00 to 0x03). For items 5 and 6, this address locks at 0x03. This address must be used WITH 0x000075
 
