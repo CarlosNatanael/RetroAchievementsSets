@@ -1,2 +1,2 @@
-# retroachievements
-retroachievements_repository
+# RetroAchievementsSets
+repository of retroachievements sets
