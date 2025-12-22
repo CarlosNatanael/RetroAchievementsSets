@@ -1,0 +1,93 @@
+Lookup:Screen
+0x00=Watching the Konami Logo
+0x01=At the Title Screen
+0x03=Watching the Demo
+0x05=Selecting Mode
+0x09=Watching the Intro
+*=[Loading]
+
+Lookup:GameState
+0x01=🏁 Full Time
+0x03=🥅 Penalty Shootout
+*=(In-Game)
+
+Lookup:Half
+0x00=1st Half
+0x01=2nd Half
+0x02=1st Half (ET)
+0x03=2nd Half (ET)
+*=(Menus)
+
+Lookup:Menu
+0x00=in Quick Match menu
+0x01=in Championship
+0x02=in Brazil Cup
+0x03=at the Password screen
+0x04=in Scenarios
+0x05=in Penalties setup
+0x06=in Training
+0x07=in Options
+*=(Main Menu)
+
+Lookup:Team
+0x00=Cruzeiro
+0x02=Palmeiras
+0x04=Botafogo
+0x06=Parana
+0x08=Bragantino
+0x0a=Guarani
+0x0c=Gremio
+0x0e=Juventude
+0x10=Flamengo
+0x12=Paysandu
+0x14=Corinthians
+0x16=Vitoria
+0x18=Fluminense
+0x1a=Internacional
+0x1c=Santos
+0x1e=São Paulo
+0x20=Portuguesa
+0x22=Goias
+0x24=Criciuma
+0x26=Bahia
+0x28=Sport
+0x2a=Vasco
+0x2c=Atletico-MG
+0x2e=União
+0x30=Ajax
+0x32=PSG
+0x34=Bayern
+0x36=Juventus
+0x38=Real Madrid
+0x3a=Barcelona
+0x3c=Boca Juniors
+0x3e=River Plate
+0x40=Independiente
+0x42=Penarol
+0x44=Univ de Chile
+0x46=Colo Colo
+0x48=Brasil
+0x4a=Brasil 58
+0x4c=Brasil 96
+0x4e=Europa
+0x50=America A
+0x52=America E
+*=(Unknown Team)
+
+Lookup:Stadium
+0x00 = Estádio da Gávea
+0x01 = Estádio do Morumbi
+0x02 = São Januário
+0x03 = Fonte Nova
+0x04 = Parque Antarctica
+0x05 = Estádio Olímpico
+0x06 = Estádio das Laranjeiras
+0x07 = Engenhão
+*=(Unknown Stadium)
+
+Display:?0x 000032!=6?@Screen(0x 000032)
+?0x 000032=6_0x 000058=3?🥅 Penalty Shootout: @Team(0x 000da0) @Number(0x 000da2) vs @Number(0x 000ea2) @Team(0x 000ea0)
+?0x 000032=6_0x 000058=1?🏁 Full Time: @Team(0x 000da0) @Number(0x 000da2) - @Number(0x 000ea2) @Team(0x 000ea0)
+?0x 000032=6_0x 0000a8<=3?@Stadium(0xh1fa2) ⚽ @Team(0x 000da0) @Number(0x 000da2) vs @Number(0x 000ea2) @Team(0x 000ea0) - @Half(0x 0000a8)
+?0x 000032=6?Browsing @Menu(0x 001e5e)
+Playing Futebol Brasileiro 96
