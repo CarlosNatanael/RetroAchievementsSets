@@ -128,5 +128,5 @@ A Máquina Perfeita: (25)
 
 ### Unwelcome Concept achievements
 
-[Não feita]O Gambito P3:
+[Void]O Gambito P3:
 - Ganhe o Campeonato Mundial de F1 após ficar em 3º lugar na classificação por pontos, pouco antes do Grande Prêmio da Bélgica.
