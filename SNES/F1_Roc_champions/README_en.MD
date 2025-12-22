@@ -90,7 +90,7 @@ Win a race on each of the game's circuits. It is recommended to focus on these a
 | <h3 id=a_Belgica>**Master of Eau Rouge**</h3><sub>*2 Points*</sub> <br><br> ![Badge](https://media.retroachievements.org/Badge/640408.png "Badge Icon") | - Win a race on the Belgian circuit (Spa-Francorchamps). |
 | <h3 id=a_Australia>**Down Under Dominator**</h3><sub>*2 Points*</sub> <br><br> ![Badge](https://media.retroachievements.org/Badge/640409.png "Badge Icon") | - Win a race on the Australian circuit (Adelaide). |
 | <h3 id=a_EUA>**The American Dream**</h3><sub>*1 Point*</sub> <br><br> ![Badge](https://media.retroachievements.org/Badge/640410.png "Badge Icon") | - Win a race on the USA circuit (Phoenix). |
-| <h3 id=a_Monaco>**Jewel in the Crown**</h3><sub>*2 Points*</sub> <br><br> ![Badge](https://media.retroachievements.org/Badge/640411.png "Badge Icon") | - Win a race on the Monaco circuit. <br> - *Tip:* This circuit is vital for practicing for the "Intocável" (Untouchable) achievement. |
+| <h3 id=a_Monaco>**Jewel in the Crown**</h3><sub>*2 Points*</sub> <br><br> ![Badge](https://media.retroachievements.org/Badge/640411.png "Badge Icon") | - Win a race on the Monaco circuit. <br> - *Tip:* This circuit is vital for practicing for the **Untouchable** achievement. |
 | <h3 id=a_Japao>**Suzuka Samurai**</h3><sub>*2 Points*</sub> <br><br> ![Badge](https://media.retroachievements.org/Badge/640412.png "Badge Icon") | - Win a race on the Japanese circuit. |
 
 🔗 [Back to Table of Contents](#ToC)
@@ -138,7 +138,7 @@ This category contains the hardest skill tests in the set.
 | <h3 id=a_SeasonPerfect>**Perfect Season**</h3><sub>*50 Points*</sub> <br><br> ![Badge](https://media.retroachievements.org/Badge/640430.png "Badge Icon") | - Win every race in a full F1 season. <br> - If you lose a race, you will have to restart the season.|
 | <h3 id=a_Intocavel>**Untouchable**</h3><sub>*25 Points*</sub> <br><br> ![Badge](https://media.retroachievements.org/Badge/640426.png "Badge Icon") | - Win a race on the **Monaco** circuit without any collisions. <br> - Any damage to the car requires a restart. |
 | <h3 id=a_ChuvaInterlagos>**Interlagos Rain Master**</h3><sub>*10 Points*</sub> <br><br> ![Badge](https://media.retroachievements.org/Badge/640424.png "Badge Icon") | - Win a race in rainy conditions on the Brazilian circuit. <br> - Combine with the **Dancing in the Rain** achievement. <br> Tip: Use rain tires and the second engine upgrade. This provides more stability in corners. |
-| <h3 id=a_LastPlaceStart>**Na parte de trás do pelotão**</h3><sub>*10 Points*</sub> <br><br> ![Badge](https://media.retroachievements.org/Badge/640423.png "Badge Icon") | - Win a race after starting in 8th place. <br> - Requires aggressive overtaking right at the start and a fully upgraded car. <br> Tip: Recommended to do on the Italian circuit. |
+| <h3 id=a_LastPlaceStart>**Back of the Pack**</h3><sub>*10 Points*</sub> <br><br> ![Badge](https://media.retroachievements.org/Badge/640423.png "Badge Icon") | - Win a race after starting in 8th place. <br> - Requires aggressive overtaking right at the start and a fully upgraded car. <br> Tip: Recommended to do on the Italian circuit. |
 | <h3 id=a_RainTires>**Dancing in the Rain**</h3><sub>*2 Points*</sub> <br><br> ![Badge](https://media.retroachievements.org/Badge/640425.png "Badge Icon") | - Win any race in rainy conditions after equipping your rain tires. |
 
 🔗 [Back to Table of Contents](#ToC)
