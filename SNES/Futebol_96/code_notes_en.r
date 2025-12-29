@@ -1,6 +1,6 @@
 70/70
 
-0x000032 - Screen ID (8-bit)
+0x000032 - [8-bit] Screen ID 
 Values:
 0x00 = Konami logo (on boot)
 0x01 = Title screen
@@ -11,17 +11,17 @@ Values:
 
 Note: Seems to be 0x06 consistently during all normal game modes after the mode select screen. Seems consistent.
 
-0x000052 - CPU Active (8-bit)
+0x000052 - [8-bit] CPU Active
 Values:
 0x00 = Yes
 0x01 = No
 
-0x000058 - Game State / Scenario (8-bit)
+0x000058 - [8-bit] Game State / Scenario
 Values:
 0x01 = Game Over screen (Win or Lose)
 0x03 = Penalty Shootout
 
-0x0000a8 - Match Period (8-bit)
+0x0000a8 - [8-bit] Match Period
 Values:
 0x00 = First Half
 0x01 = Second Half
@@ -30,7 +30,7 @@ Values:
 
 Note: Value remains 0x03 if the match goes to a penalty shootout after extra time.
 
-0x000da0 - Team P1 ID (8-bit)
+0x000da0 - [8-bit] Team P1 ID
 # == Brazil Teams ==
 0x00 = Cruzeiro
 0x02 = Palmeiras
@@ -81,10 +81,10 @@ Note: Value remains 0x03 if the match goes to a penalty shootout after extra tim
 0x50 = America A (America All-Stars A)
 0x52 = America E (America All-Stars E)
 
-0x000da2 - Player 1 Score (8-bit)
+0x000da2 - [8-bit] Player 1 Score
 Note: Holds the P1 score as a standard hex value
 
-0x000da6 - P1 Team Formation (8-bit)
+0x000da6 - [8-bit] P1 Team Formation
 Values:
 0x00 = 4-5-1
 0x01 = 4-4-2
@@ -104,35 +104,35 @@ Values:
 0x0f = 1-4-5
 
 
-0x000daa - P1 Total Shots (8-bit)
+0x000daa - [8-bit] P1 Total Shots
 Note: Tracks the total number of shots taken by Player 1. Value is standard hex.
 
 
-0x000dab - P1 Total Free Kicks (8-bit)
+0x000dab - [8-bit] P1 Total Free Kicks
 Note: Tracks the total number of free kicks taken by Player 1. Value is standard hex.
 
 
-0x000dac - P1 Total Corner Kicks (8-bit)
+0x000dac - [8-bit] P1 Total Corner Kicks
 Note: Tracks the total number of corner kicks taken by Player 1. Value is standard hex.
 
 
-0x000dad - P1 Total Penalties (8-bit)
+0x000dad - [8-bit] P1 Total Penalties
 Note: Tracks the total number of penalties taken by Player 1. Value is standard hex.
 
 
-0x000dae - P1 Total Yellow Cards (8-bit)
+0x000dae - [8-bit] P1 Total Yellow Cards
 Note: Tracks the total number of yellow cards received by Player 1. Value is standard hex.
 
 
-0x000daf - P1 Total Red Cards (8-bit)
+0x000daf - [8-bit] P1 Total Red Cards
 Note: Tracks the total number of red cards received by Player 1. Value is standard hex.
 
 
-0x000db0 - P1 Total Substitutions (8-bit)
+0x000db0 - [8-bit] P1 Total Substitutions
 Note: Tracks the total number of substitutions made by Player 1. Value is standard hex.
 
 
-0x000de2 - P1 Goalkeeper Skill Level (8-bit)
+0x000de2 - [8-bit] P1 Goalkeeper Skill Level
 Values:
 0x00 = Very Weak
 0x01 = Weak
@@ -141,7 +141,7 @@ Values:
 0x04 = Strong
 
 
-0x000ea0 - Team P2 ID (8-bit)
+0x000ea0 - [8-bit] Team P2 ID
 # == Brazil Teams ==
 0x00 = Cruzeiro
 0x02 = Palmeiras
@@ -193,11 +193,11 @@ Values:
 0x52 = America E (America All-Stars E)
 
 
-0x000ea2 - Player 2 Score (8-bit)
+0x000ea2 - [8-bit] Player 2 Score
 Note: Holds the P2 score as a standard hex value
 
 
-0x000ea6 - P2 Team Formation (8-bit)
+0x000ea6 - [8-bit] P2 Team Formation
 Values:
 0x00 = 4-5-1
 0x01 = 4-4-2
@@ -217,35 +217,35 @@ Values:
 0x0f = 1-4-5
 
 
-0x000eaa - P2 Total Shots (8-bit)
+0x000eaa - [8-bit] P2 Total Shots
 Note: Tracks the total number of shots taken by Player 2. Value is standard hex.
 
 
-0x000eab - P2 Total Free Kicks (8-bit)
+0x000eab - [8-bit] P2 Total Free Kicks
 Note: Tracks the total number of free kicks taken by Player 2. Value is standard hex.
 
 
-0x000eac - P2 Total Corner Kicks (8-bit)
+0x000eac - [8-bit] P2 Total Corner Kicks
 Note: Tracks the total number of corner kicks taken by Player 2. Value is standard hex.
 
 
-0x000ead - P2 Total Penalties (8-bit)
+0x000ead - [8-bit] P2 Total Penalties
 Note: Tracks the total number of penalties taken by Player 2. Value is standard hex.
 
 
-0x000eae - P2 Total Yellow Cards (8-bit)
+0x000eae - [8-bit] P2 Total Yellow Cards
 Note: Tracks the total number of yellow cards received by Player 2. Value is standard hex.
 
 
-0x000eaf - P2 Total Red Cards (8-bit)
+0x000eaf - [8-bit] P2 Total Red Cards
 Note: Tracks the total number of red cards received by Player 2. Value is standard hex.
 
 
-0x000eb0 - P2 Total Substitutions (8-bit)
+0x000eb0 - [8-bit] P2 Total Substitutions
 Note: Tracks the total number of substitutions made by Player 2. Value is standard hex.
 
 
-0x000ee2 - P2 Goalkeeper Skill Level (8-bit)
+0x000ee2 - [8-bit] P2 Goalkeeper Skill Level
 Values:
 0x00 = Very Weak
 0x01 = Weak
@@ -254,46 +254,46 @@ Values:
 0x04 = Strong
 
 
-0x0014ee - Pause Menu (8-bit)
+0x0014ee - [8-bit] Pause Menu
 Values:
 0x00 = Resume
 0x01 = Replay
 
 
-0x00154e - Weather (8-bit)
+0x00154e - [8-bit] Weather
 Values:
 0x00 = Snow
 0x01 = Good
 0x02 = Rain
 
 
-0x0016d2 - Game Timer - Seconds (8-bit)
+0x0016d2 - [8-bit] Game Timer - Seconds
 Note: Stores the seconds portion of the game timer. The value is standard hexadecimal (Hex=Dec).
 
 
-0x0016d3 - Game Timer - Minutes (8-bit)
+0x0016d3 - [8-bit] Game Timer - Minutes
 Note: Stores the minutes portion of the game timer. The value is standard hexadecimal.
 
 
-0x0016d4 - Game Timer - Frames (8-bit)
+0x0016d4 - [8-bit] Game Timer - Frames
 Note: Stores the frames (centiseconds) portion of the game timer.
 
 
-0x0019ac - Coin Toss Call (8-bit)
+0x0019ac - [8-bit] Coin Toss Call
 Note: Registers the players call before the toss.
 Values:
 0x00 = Heads
 0x01 = Tails
 
 
-0x0019b8 - Coin Toss Result (8-bit)
+0x0019b8 - [8-bit] Coin Toss Result
 Note: The actual result of the referees coin toss.
 Values:
 0x00 = Heads
 0x01 = Tails
 
 
-0x0019c8 - Kick-off/Side Selection (8-bit)
+0x0019c8 - [8-bit] Kick-off/Side Selection
 Note: Active after the toss. If the player won, all 3 options are available.
 Values:
 0x00 = Start with Ball
@@ -301,7 +301,7 @@ Values:
 0x02 = Away Side (Right)
 
 
-0x001d08 - Voice Line ID / Event Trigger (8-bit)
+0x001d08 - [8-bit] Voice Line ID / Event Trigger
 Note: Indicates the sound/voice line currently being played.
 Values:
 0x01 = Corner Kick
@@ -330,7 +330,7 @@ Values:
 0x48 = Barking (Dog Referee Active)
 
 
-0x001e5e - Main Menu Option (8-bit)
+0x001e5e - [8-bit] Main Menu Option
 Note: Stores the currently selected main game mode.
 Values:
 0x00 = Quick Match
@@ -343,7 +343,7 @@ Values:
 0x07 = Options
 
 
-0x001e68 - P1 Number of Players (8-bit)
+0x001e68 - [8-bit] P1 Number of Players
 Values:
 0x06 = 7
 0x07 = 8
@@ -352,7 +352,7 @@ Values:
 0x0a = 11
 
 
-0x001e6a - P2 Number of Players (8-bit)
+0x001e6a - [8-bit] P2 Number of Players
 Values:
 0x06 = 7
 0x07 = 8
@@ -361,38 +361,38 @@ Values:
 0x0a = 11
 
 
-0x001f88 - Match Duration (8-bit)
+0x001f88 - [8-bit] Match Duration
 Values:
 0x00 = 3 Minutes
 0x01 = 5 Minutes
 0x02 = 7 Minutes
 
 
-0x001f90 - Sound Setting (8-bit)
+0x001f90 - [8-bit] Sound Setting
 Values:
 0x00 = Stereo
 0x01 = Mono
 
 
-0x001f92 - Offside Enabled (8-bit)
+0x001f92 - [8-bit] Offside Enabled
 Values:
 0x00 = Yes
 0x01 = No
 
 
-0x001f98 - Fouls Enabled (8-bit)
+0x001f98 - [8-bit] Fouls Enabled
 Values:
 0x00 = Yes
 0x01 = No
 
 
-0x001f9a - Bookings Enabled (8-bit)
+0x001f9a - [8-bit] Bookings Enabled
 Values:
 0x00 = Yes
 0x01 = No
 
 
-0x001f9c - Game Difficulty (8-bit)
+0x001f9c - [8-bit] Game Difficulty
 Values:
 0x00 = Level 1
 0x01 = Level 2
@@ -401,7 +401,7 @@ Values:
 0x04 = Level 5
 
 
-0x001fa0 - Referee Selection (8-bit)
+0x001fa0 - [8-bit] Referee Selection
 Values:
 0x00 = Carlos
 0x01 = Heinz
@@ -409,7 +409,7 @@ Values:
 0x03 = Random
 
 
-0x001fa2 - Stadiums (8-bit)
+0x001fa2 - [8-bit] Stadiums
 Values:
 0x00 = Flamengo
 0x01 = São Paulo
@@ -421,21 +421,21 @@ Values:
 0x07 = Botafogo
 
 
-0x001fe0 - Extra Time Enabled (8-bit)
+0x001fe0 - [8-bit] Extra Time Enabled
 Values:
 0x00 = No
 0x01 = Yes
 
 
-0x00d442 - Player 1 Penalty Score (8-bit)
+0x00d442 - [8-bit] Player 1 Penalty Score
 Note: Holds the P1 score during a penalty shootout. Value is standard hex.
 
 
-0x00d443 - Player 2 Penalty Score (8-bit)
+0x00d443 - [8-bit] Player 2 Penalty Score
 Note: Holds the P2 score during a penalty shootout. Value is standard hex.
 
 
-0x00d474 - P1 Player Condition (8-bit)
+0x00d474 - [8-bit] P1 Player Condition
 Values:
 0x00 = Terrible (Purple/Down)
 0x01 = Bad (Blue/Down-Right)
@@ -445,7 +445,7 @@ Values:
 0x05 = Random
 
 
-0x00d476 - P2 Player Condition (8-bit)
+0x00d476 - [8-bit] P2 Player Condition
 Values:
 0x00 = Terrible (Purple/Down)
 0x01 = Bad (Blue/Down-Right)
@@ -455,7 +455,7 @@ Values:
 0x05 = Random
 
 
-0x00d706 - Scenario Modes Won (9-12) (8-bit)
+0x00d706 - [8-bit] Scenario Modes Won (9-12)
 Note: This is a bitfield. Each bit corresponds to a completed scenario.
 Values:
 Bit 3 = Scenario 9 Won (0x08)
@@ -464,7 +464,7 @@ Bit 1 = Scenario 11 Won (0x02)
 Bit 0 = Scenario 12 Won (0x01)
 
 
-0x00d88d - Scenario Modes Won (1-8) (8-bit)
+0x00d88d - [8-bit] Scenario Modes Won (1-8)
 Note: This is a bitfield. Each bit corresponds to a completed scenario.
 Values:
 Bit 7 = Scenario 1 Won (0x80)
@@ -477,62 +477,62 @@ Bit 1 = Scenario 7 Won (0x02)
 Bit 0 = Scenario 8 Won (0x01)
 
 
-0x00d88e - Scenario 1 Attempt Count (8-bit)
+0x00d88e - [8-bit] Scenario 1 Attempt Count
 Note: Tracks the number of times the player has attempted Scenario 1. Starts at 0x00.
 
 
-0x00d88f - Scenario 2 Attempt Count (8-bit)
+0x00d88f - [8-bit] Scenario 2 Attempt Count
 Note: Tracks the number of times the player has attempted Scenario 2.
 
 
-0x00d890 - Scenario 3 Attempt Count (8-bit)
+0x00d890 - [8-bit] Scenario 3 Attempt Count
 Note: Tracks the number of times the player has attempted Scenario 3.
 
 
-0x00d891 - Scenario 4 Attempt Count (8-bit)
+0x00d891 - [8-bit] Scenario 4 Attempt Count
 Note: Tracks the number of times the player has attempted Scenario 4.
 
 
-0x00d892 - Scenario 5 Attempt Count (8-bit)
+0x00d892 - [8-bit] Scenario 5 Attempt Count
 Note: Tracks the number of times the player has attempted Scenario 5.
 
 
-0x00d893 - Scenario 6 Attempt Count (8-bit)
+0x00d893 - [8-bit] Scenario 6 Attempt Count
 Note: Tracks the number of times the player has attempted Scenario 6.
 
 
-0x00d894 - Scenario 7 Attempt Count (8-bit)
+0x00d894 - [8-bit] Scenario 7 Attempt Count
 Note: Tracks the number of times the player has attempted Scenario 7.
 
 
-0x00d895 - Scenario 8 Attempt Count (8-bit)
+0x00d895 - [8-bit] Scenario 8 Attempt Count
 Note: Tracks the number of times the player has attempted Scenario 8.
 
 
-0x00d896 - Scenario 9 Attempt Count (8-bit)
+0x00d896 - [8-bit] Scenario 9 Attempt Count
 Note: Tracks the number of times the player has attempted Scenario 9.
 
 
-0x00d897 - Scenario 10 Attempt Count (8-bit)
+0x00d897 - [8-bit] Scenario 10 Attempt Count
 Note: Tracks the number of times the player has attempted Scenario 10.
 
 
-0x00d898 - Scenario 11 Attempt Count (8-bit)
+0x00d898 - [8-bit] Scenario 11 Attempt Count
 Note: Tracks the number of times the player has attempted Scenario 11.
 
 
-0x00d899 - Scenario 12 Attempt Count (8-bit)
+0x00d899 - [8-bit] Scenario 12 Attempt Count
 Note: Tracks the number of times the player has attempted Scenario 12.
 
 
-0x00e528 - Challenge Mode Active (8-bit)
+0x00e528 - [8-bit] Challenge Mode Active
 Note: Flag that indicates if the specific Challenge Mode logic is running.
 Values:
 0x00 = Inactive
 0x01 = Active
 
 
-0x00e52a - Selected Scenario (8-bit)
+0x00e52a - [8-bit] Selected Scenario
 Note: Stores the currently selected scenario (01-12).
 Values:
 0x00 = Scenario 01
@@ -549,7 +549,7 @@ Values:
 0x0b = Scenario 12
 
 
-0x00e52c - Challenge Mode Type (8-bit)
+0x00e52c - [8-bit] Challenge Mode Type
 Note: Determines which mini-game is currently selected/active in Challenge Mode.
 Values:
 0x00 = Dribble Challenge
@@ -560,7 +560,7 @@ Values:
 0x05 = Free Kick Challenge
 
 
-0x00e52e - Challenge Mode Level (8-bit)
+0x00e52e - [8-bit] Challenge Mode Level
 Note: Selects the difficulty level for the chosen challenge.
 Values:
 0x00 = Level 1
@@ -569,7 +569,7 @@ Values:
 0x03 = Level 4
 
 
-0x00e534 - Training Mode Active (8-bit)
+0x00e534 - [8-bit] Training Mode Active
 Note: Flag that indicates if the specific Training Mode logic is running.
 Values:
 0x00 = Inactive
