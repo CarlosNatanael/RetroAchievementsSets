@@ -1,0 +1,13 @@
+0x002ddc: [8-bit] Layout do time
+
+0x00 = 
+0x01 =
+0x02 =
+
+
+0x002ea9: [8-bit] ID localização
+
+0x10 = Em batalha
+0x07 = Victoria/Exp
+0x08 = In game
+
