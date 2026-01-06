@@ -16,6 +16,10 @@
 0x000028: [8-bit] Health bar
 max = 0x0c
 
+0x000254: Iminigos ?
+0x00 = Sim
+0x01 = Não
+
 0x003d84: [8-bit] Game pause
 0x00 = in game
 0x01 = pause
@@ -23,12 +27,13 @@ max = 0x0c
 0x003d90: [8-bit] Menu selection
 
 0x003d9c: [8-bit] Localização game
-0x02 = Creditos
+0x02 = Cacsine
 0x0e = Linguagem
 0x1c = Menu selection
 0x13 = New Game/ Password
 0x14 = Advanced mode/Password
 0x1f = in game
+0x22 = Boss
 
 0x003da8: [8-bit] Levels games
 0x00 = Level 1
@@ -76,3 +81,24 @@ max = 0x0c
 
 0x003e19: [8-bit] controle - direita
 0x01 = ativa
+
+0x004328: [8-bit] Batcinto em boss figth
+0x00 = Batarang
+0x01 = Smoke bomb
+0x02 = Batcorda
+0x03 = Health potion
+
+0x004329: [8-bit] Batarangs em boss figth
+0x00 = vazio até 0x09 = full
+
+0x00432a: [8-bit] Smoke bombs em boss figth
+0x00 = vazio até 0x09 = full
+
+0x00432c: [8-bit] Health potions em boss figth
+0x00 = vazio até 0x09 = full
+
+0x004331: [8-bit] Health bar em boss figth
+max = 0x0c
+
+0x008334: [8-bit] vida Level 1 (editavel)
+0x008343: [8-bit] vida Level 1 (não editavel)
