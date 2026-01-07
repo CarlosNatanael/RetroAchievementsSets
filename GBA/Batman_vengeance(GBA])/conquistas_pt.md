@@ -68,15 +68,15 @@
 
 
 * **Asas da Justiça I**
-   - **Descrição:** Complete o Nível 5 (Batplane) sem perder saúde.
+   - **Descrição:** Complete o Nível 5 (Batplane) sem sofrer dano.
 
 
 * **Asas da Justiça II**
-   - **Descrição:** Complete o Nível 13 (Batplane) sem perder saúde.
+   - **Descrição:** Complete o Nível 13 (Batplane) sem sofrer dano.
 
 
 * **Dirigível Abatido**
-   - **Descrição:** Destrua o dirigível do Coringa (Nível 21) sem perder saúde.
+   - **Descrição:** Destrua o dirigível do Coringa (Nível 21) sem sofrer dano.
 ---
 
 ### 💾 Modo Avançado & Extras
