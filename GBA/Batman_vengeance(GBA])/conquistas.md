@@ -56,11 +56,11 @@
 ### 🏎️ Veículos (Tempo e Habilidade)
 
 * **Turbina de Gotham**
-   - **Descrição:** Complete o Nível 3 (Batmóvel) restando 10 segundos ou mais.
+   - **Descrição:** Complete o Nível 3 (Batmóvel) restando 20 segundos ou mais.
 
 
 * **Fúria na Estrada**
-   - **Descrição:** Complete o Nível 8 (Batmóvel) restando 10 segundos ou mais.
+   - **Descrição:** Complete o Nível 8 (Batmóvel) restando 15 segundos ou mais.
 
 
 * **Velocidade Máxima**
